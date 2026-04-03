@@ -1,0 +1,10 @@
+# Core MCP framework
+mcp[cli]>=1.0.0
+
+# AWS SDK — EC2 control and SSM remote execution
+boto3>=1.34.0
+
+# SQL Server connectivity (requires ODBC Driver 17 for SQL Server on the host OS)
+# Windows: https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server
+# Linux:   sudo apt-get install -y msodbcsql17  (or equivalent)
+pyodbc>=5.0.0
